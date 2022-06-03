@@ -1,12 +1,14 @@
+package get_report_result;
+
 import java.util.*;
 
-public class GetReportResult {
+public class Main {
 
     private static int BAN_LIMITED = 0;
 
     public static void main(String[] args) {
 
-        GetReportResult main = new GetReportResult();
+        Main main = new Main();
 
         main.solution(
                 new String[]{"muzi", "frodo", "apeach", "neo"},
